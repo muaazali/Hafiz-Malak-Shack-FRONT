@@ -6,11 +6,29 @@
         rgba(252, 88, 125, 1) 42%,
         rgba(246, 87, 167, 1) 100%
     );
+    flex-wrap: nowrap;
 
     .nav-items {
         display: flex;
-        width: 100%;
         color: white;
         overflow: hidden;
+    }
+
+    .nav-title {
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+
+        h1 {
+            margin: 0;
+            font-family: 'Monoton', cursive;
+            font-size: xxx-large;
+            word-spacing: 10px;
+            color: white;
+        }
+    }
+    .nav-right {
+        display: flex;
+        justify-content: flex-end;
     }
 }
