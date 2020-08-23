@@ -3,8 +3,12 @@
 </div>
 <div class="container">
     <div class="row">
-        <food-tile></food-tile>
-        <food-tile></food-tile>
-        <food-tile></food-tile>
+        <food-tile
+            class="col-md-4"
+            *ngFor="let special of todaysSpecials; index as i"
+            [foodTitle]="special.title"
+            [foodPrice]="special.price"
+            [imageSource]="special.img"
+        ></food-tile>
     </div>
 </div>
