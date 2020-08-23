@@ -8,17 +8,17 @@ export class HomeService {
 
     data = [
         {
-            title: 'Milkshake 1',
+            title: 'Banana Sprinkles Milkshake',
             price: 20,
             img: 'assets/images/img_1.jpg',
         },
         {
-            title: 'Milkshake 2',
+            title: 'Oreo Chocolate Milkshake',
             price: 20,
             img: 'assets/images/img_2.jpg',
         },
         {
-            title: 'Milkshake 3',
+            title: 'Apple Milkshake',
             price: 20,
             img: 'assets/images/img_3.jpg',
         },

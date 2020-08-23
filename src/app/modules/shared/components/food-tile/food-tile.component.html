@@ -1,5 +1,9 @@
 <div class="food-tile-wrapper">
-    <img [src]="imageSource" class="long-pic" />
-    <span class="food-title">{{ foodTitle }}</span>
-    <span class="food-price">{{ foodPrice }}</span>
+    <img [src]="imageSource" class="food-pic" />
+    <div class="overlay">
+        <div class="food-title">
+            <h2>{{ foodTitle }}</h2>
+        </div>
+        <span class="badge badge-danger food-price">Rs. {{ foodPrice }}</span>
+    </div>
 </div>
